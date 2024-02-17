@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+st.header("Merging branches in github")
 
 data = {'uni' : ['msu', 'uof', 'qui'],
         'BA' : [3.0, 2.9, 3.1],
@@ -21,3 +21,4 @@ st.pyplot(plt)
 
 plt.bar(df.uni, df.DS)
 st.pyplot(plt)
+
