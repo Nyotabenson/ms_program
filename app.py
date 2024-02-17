@@ -17,3 +17,7 @@ st.dataframe(df)
 
 plt.bar(df.uni, df.BA)
 st.pyplot(plt)
+
+
+plt.bar(df.uni, df.DS)
+st.pyplot(plt)
